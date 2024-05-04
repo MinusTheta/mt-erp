@@ -1,0 +1,20 @@
+{
+  "name": "@mt-erp/monorepo",
+  "version": "0.0.1",
+  "description": "Enterprise Resource Planning software",
+  "repository": "git@github.com:MinusTheta/mt-erp.git",
+  "author": "Minus Theta <minustheta.hq@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "build": "lerna run build",
+    "start": "lerna run start",
+    "dev": "lerna run dev"
+  },
+  "devDependencies": {
+    "lerna": "^8.1.2"
+  }
+}

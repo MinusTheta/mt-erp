@@ -1,0 +1,23 @@
+{
+  "name": "@mt-erp/server",
+  "version": "0.0.1",
+  "description": "Server of the Enterprise Resource Planning software",
+  "main": "./dist/server.js",
+  "author": "Minus Th0eta <minustheta.hq@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "start": "tsc && node ./dist/server.js",
+    "dev": "nodemon"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "nodemon": "^3.1.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2"
+  }
+}
